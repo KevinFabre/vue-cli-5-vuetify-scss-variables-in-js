@@ -1,0 +1,5 @@
+@import "~vuetify/src/styles/settings/_colors.scss";
+
+$material-light: (
+  background: map-get($grey, "lighten-1")
+);
