@@ -79,7 +79,7 @@
 </template>
 
 <script>
-import { alertcolor } from "@/styles/app.module.scss";
+import style from "@/styles/app.module.scss";
 
 export default {
   name: "HelloWorld",
@@ -137,7 +137,7 @@ export default {
     ],
   }),
   created() {
-    this.alertcolor = alertcolor;
+    this.alertcolor = style.alertcolor;
   },
 };
 </script>

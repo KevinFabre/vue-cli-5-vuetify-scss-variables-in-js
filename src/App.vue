@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="primary" dark>
+      <MyHeader>Hello world</MyHeader>
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
@@ -40,9 +41,13 @@
 </template>
 
 <script>
+import MyHeader from "@/components/MyHeader.vue";
+
 export default {
   name: "App",
-
+  components: {
+    MyHeader,
+  },
   data: () => ({
     //
   }),
