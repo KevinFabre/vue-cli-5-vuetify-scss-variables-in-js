@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import { mediumcolor } from "@/styles/app.module.scss";
+import style from "@/styles/app.module.scss";
 
 export default {
   data() {
     return {
-      mediumcolor,
+      mediumcolor: style.mediumcolor,
     };
   },
 };
